@@ -1,0 +1,41 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.0/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.TW_Home_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+	height: 100%;
+}
+/* mobilelabel_2 */
+.TW_Home_mobilelabel_2 {
+	font-weight: normal; color: #ffffff; text-align: center; font-size: 22px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegroupedbuttons_3 */
+.ui-controlgroup.TW_Home_mobilegroupedbuttons_3 {
+	margin: 4px 5px 4px 5px;
+}
+.ui-controlgroup.TW_Home_mobilegroupedbuttons_3 .ui-btn {
+	margin: 0 -1px 0 0;
+}
+/* mobilebutton_4 */
+#TW_Home_mobilebutton_4 {
+
+}
+.ui-btn.TW_Home_mobilebutton_4 {
+
+}
+/* mobilebutton_5 */
+#TW_Home_mobilebutton_5 {
+
+}
+.ui-btn.TW_Home_mobilebutton_5 {
+
+}
+/* mobilefooter1 */
+.TW_Home_mobilefooter1 {
+	min-height:38px;
+}

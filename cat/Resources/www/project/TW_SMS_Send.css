@@ -1,0 +1,117 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.0/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.TW_SMS_Send_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+	height: 100%;
+}
+/* mobilelabel_14 */
+.TW_SMS_Send_mobilelabel_14 {
+	font-weight: normal; font-style: italic; color: #ff0000; text-align: center;
+	margin: 4px 0px 4px 0px;
+	display: none;
+	word-wrap: break-word;
+}
+/* mobilegrid_3 */
+.TW_SMS_Send_mobilegrid_3 {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.TW_SMS_Send_mobilegrid_3 > tr > td {
+	vertical-align: top;
+}
+.TW_SMS_Send_mobilegrid_3_row_0, .TW_SMS_Send_mobilegrid_3_row_0 > td {
+	height: 30px
+}
+.TW_SMS_Send_mobilegrid_3_row_1, .TW_SMS_Send_mobilegrid_3_row_1 > td {
+	height: 30px
+}
+/* mobilegridcell_4 */
+.TW_SMS_Send_mobilegridcell_4 {
+	height:30px !important;
+	width:64px;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_Send_mobilegridcell_4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_8 */
+.TW_SMS_Send_mobilelabel_8 {
+	font-weight: normal; color: #000000; text-align: left; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_5 */
+.TW_SMS_Send_mobilegridcell_5 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_Send_mobilegridcell_5 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_15 */
+.TW_SMS_Send_mobilelabel_15 {
+	font-weight: normal; color: #000000; text-align: left; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_6 */
+.TW_SMS_Send_mobilegridcell_6 {
+	height:30px !important;
+	width:64px;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_Send_mobilegridcell_6 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_2 */
+.TW_SMS_Send_mobilelabel_2 {
+	font-weight: normal; color: #000000; text-align: left; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_7 */
+.TW_SMS_Send_mobilegridcell_7 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_Send_mobilegridcell_7 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* sendSmsTo */
+.TW_SMS_Send_sendSmsTo {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilelabel_9 */
+.TW_SMS_Send_mobilelabel_9 {
+	font-weight: normal; color: #000000; text-align: left; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* sendSmsContent */
+.TW_SMS_Send_sendSmsContent {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_13 */
+#TW_SMS_Send_mobilebutton_13 {
+
+}
+.ui-btn.TW_SMS_Send_mobilebutton_13 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilefooter1 */
+.TW_SMS_Send_mobilefooter1 {
+	min-height:38px;
+}

@@ -1,0 +1,319 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.0/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* paymentContainer */
+.ui-content.StripePayment_PaymentScreen_paymentContainer {
+	padding: 10px 10px 10px 10px;
+	height: 100%;
+}
+/* cardGrid */
+.StripePayment_PaymentScreen_cardGrid {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.StripePayment_PaymentScreen_cardGrid > tr > td {
+	vertical-align: top;
+}
+.StripePayment_PaymentScreen_cardGrid_row_0, .StripePayment_PaymentScreen_cardGrid_row_0 > td {
+	height: 30px
+}
+.StripePayment_PaymentScreen_cardGrid_row_1, .StripePayment_PaymentScreen_cardGrid_row_1 > td {
+	height: 80px
+}
+/* mobilegridcell_4 */
+.StripePayment_PaymentScreen_mobilegridcell_4 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 12px 2px 12px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel1_8 */
+.StripePayment_PaymentScreen_mobilelabel1_8 {
+	font-weight: normal; color: #1f0707; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* numberInput */
+.StripePayment_PaymentScreen_numberInput {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilegridcell_6 */
+.StripePayment_PaymentScreen_mobilegridcell_6 {
+	height:80px !important;
+	width:auto;
+	padding: 0px 12px 0px 12px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_6 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegrid_49 */
+.StripePayment_PaymentScreen_mobilegrid_49 {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.StripePayment_PaymentScreen_mobilegrid_49 > tr > td {
+	vertical-align: top;
+}
+.StripePayment_PaymentScreen_mobilegrid_49_row_0, .StripePayment_PaymentScreen_mobilegrid_49_row_0 > td {
+	height: auto
+}
+/* mobilegridcell_50 */
+.StripePayment_PaymentScreen_mobilegridcell_50 {
+	height:auto !important;
+	width:110px;
+	padding: 2px 2px 2px 2px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_50 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel1_17 */
+.StripePayment_PaymentScreen_mobilelabel1_17 {
+	font-weight: normal; color: #120202; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegrid_36 */
+.StripePayment_PaymentScreen_mobilegrid_36 {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.StripePayment_PaymentScreen_mobilegrid_36 > tr > td {
+	vertical-align: top;
+}
+.StripePayment_PaymentScreen_mobilegrid_36_row_0, .StripePayment_PaymentScreen_mobilegrid_36_row_0 > td {
+	height: 38px
+}
+/* mobilegridcell_37 */
+.StripePayment_PaymentScreen_mobilegridcell_37 {
+	height:38px !important;
+	width:auto;
+	padding: 0px 2px 0px 2px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_37 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* monthInput */
+.StripePayment_PaymentScreen_monthInput {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_38 */
+.StripePayment_PaymentScreen_mobilegridcell_38 {
+	height:38px !important;
+	width:15px;
+	padding: 0px 2px 0px 2px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_38 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel1_56 */
+.StripePayment_PaymentScreen_mobilelabel1_56 {
+	font-weight: normal; color: #1f0303; text-align: center; font-size: 16px;
+	margin: 6px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_41 */
+.StripePayment_PaymentScreen_mobilegridcell_41 {
+	height:38px !important;
+	width:auto;
+	padding: 0px 2px 0px 2px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_41 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* yearInput */
+.StripePayment_PaymentScreen_yearInput {
+	margin: 0px 0px 0px 0px;
+}
+/* mobilegridcell_51 */
+.StripePayment_PaymentScreen_mobilegridcell_51 {
+	height:auto !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_51 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegridcell_54 */
+.StripePayment_PaymentScreen_mobilegridcell_54 {
+	height:auto !important;
+	width:62px;
+	padding: 2px 2px 2px 2px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_54 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilegrid_46 */
+.StripePayment_PaymentScreen_mobilegrid_46 {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.StripePayment_PaymentScreen_mobilegrid_46 > tr > td {
+	vertical-align: top;
+}
+.StripePayment_PaymentScreen_mobilegrid_46_row_0, .StripePayment_PaymentScreen_mobilegrid_46_row_0 > td {
+	height: auto
+}
+/* mobilegridcell_47 */
+.StripePayment_PaymentScreen_mobilegridcell_47 {
+	height:auto !important;
+	width:auto;
+	padding: 0px 2px 0px 2px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_47 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel1_20 */
+.StripePayment_PaymentScreen_mobilelabel1_20 {
+	font-weight: normal; color: #170404; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 0px 0px 0px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_48 */
+.StripePayment_PaymentScreen_mobilegridcell_48 {
+	height:auto !important;
+	width:19px;
+	padding: 0px 2px 0px 2px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_48 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobileimage_44 */
+.StripePayment_PaymentScreen_mobileimage_44 {
+	margin: 0px 0px 0px 0px;
+	width: 20px!important; height: 20px!important;
+	display: block;
+}
+/* codeInput */
+.StripePayment_PaymentScreen_codeInput {
+	margin: 2px 0px 4px 0px;
+}
+/* mobilegrid_59 */
+.StripePayment_PaymentScreen_mobilegrid_59 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.StripePayment_PaymentScreen_mobilegrid_59 > tr > td {
+	vertical-align: top;
+}
+.StripePayment_PaymentScreen_mobilegrid_59_row_0, .StripePayment_PaymentScreen_mobilegrid_59_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_60 */
+.StripePayment_PaymentScreen_mobilegridcell_60 {
+	height:30px !important;
+	width:auto;
+	padding: 0px 12px 0px 12px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_60 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* errorCardLabel */
+.StripePayment_PaymentScreen_errorCardLabel {
+	font-weight: normal; color: #e70000; text-align: left; font-family: Helvetica; font-size: 12px;
+	margin: 0px 0px 0px 0px;
+	word-wrap: break-word;
+}
+/* errorPanel */
+.StripePayment_PaymentScreen_errorPanel {
+	margin: 0px 5px 2px 5px;
+	font-weight: normal;
+	width: 250px; height: 96px;
+}
+div.StripePayment_PaymentScreen_errorPanel {
+	overflow: auto;
+}
+/* paymentGrid */
+.StripePayment_PaymentScreen_paymentGrid {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.StripePayment_PaymentScreen_paymentGrid > tr > td {
+	vertical-align: top;
+}
+.StripePayment_PaymentScreen_paymentGrid_row_0, .StripePayment_PaymentScreen_paymentGrid_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_26 */
+.StripePayment_PaymentScreen_mobilegridcell_26 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_26 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel1_30 */
+.StripePayment_PaymentScreen_mobilelabel1_30 {
+	font-weight: normal; color: #210606; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 0px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* amountInput */
+.StripePayment_PaymentScreen_amountInput {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilegridcell_27 */
+.StripePayment_PaymentScreen_mobilegridcell_27 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 12px;
+}
+.StripePayment_PaymentScreen_mobilegridcell_27 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel1_31 */
+.StripePayment_PaymentScreen_mobilelabel1_31 {
+	font-weight: normal; color: #190707; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 0px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* currencySelect */
+.StripePayment_PaymentScreen_currencySelect {
+	margin: 4px 5px 4px 5px;
+}
+/* makeButton */
+#StripePayment_PaymentScreen_makeButton {
+
+}
+.ui-btn.StripePayment_PaymentScreen_makeButton {
+	margin: 12px 5px 4px 5px;
+}
+/* mobilefooter1 */
+.StripePayment_PaymentScreen_mobilefooter1 {
+	min-height:38px;
+}

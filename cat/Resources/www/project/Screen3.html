@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Screen3
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent"
+        />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.3.0/jquery.mobile.structure-1.3.0.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/TW_Style.css"
+        />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/StripePayment_CSS.css"
+        />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.3.0/jquery.mobile-1.3.0.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/childbrowser.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/StripePayment_JS.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/StripePayment_Validation.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/StripePayment_Encoder.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        $(document).bind("mobileinit", function()
+        {
+            $.mobile.page.prototype.options.degradeInputs.date = true;
+        });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="Screen3" id="Screen3" class="type-interior"
+        data-theme="b" data-add-back-btn="false" data-back-btn-text="Back">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-theme="a" name="mobileheader"
+            id="Screen3_mobileheader" class=' Screen3_mobileheader '>
+                <h1 dsid="mobileheader">
+                    Confirmation
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="Screen3_mobilecontainer" name="mobilecontainer" class=" Screen3_mobilecontainer"
+            dsid="mobilecontainer" data-theme="a">
+                <link href="Screen3.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="Screen3.js">
+                </script>
+                <!-- html_4 -->
+                <div name="html_4" dsid="html_4" id="Screen3_html_4" class=" Screen3_html_4">
+                    <p style="text-align: center;">
+                        <strong>
+                            You Rented Linus!
+                        </strong>
+                    </p>
+                    <p style="text-align: center;">
+                        <img title="" src="http://www.seattlehumane.org/files/imagecache/petimage_teaser/files/images_petpoint/767db9d0-011e-42b0-b5a6-bae59e772e61.jpg"
+                        alt="" />
+                    </p>
+                    <p style="text-align: center;">
+                        <strong>
+                            Tuesday Nov 5th, 12:00pm
+                        </strong>
+                    </p>
+                    <p style="text-align: center;">
+                        <strong>
+                            Cost: $20 (donation to Seattle Humane Society)
+                        </strong>
+                    </p>
+                    <p style="text-align: center;">
+                        Domestic Shorthair / Mix
+                        <br />
+                        Male | Small
+                        <br />
+                        6 months
+                        <br />
+                        Adoption Status:&nbsp;Available
+                    </p>
+                    <p style="text-align: center;">
+                        &nbsp;
+                    </p>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class=" Screen3_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="Screen3_mobilefooter" data-theme="a">
+            </div>
+        </div>
+    </body>
+
+</html>

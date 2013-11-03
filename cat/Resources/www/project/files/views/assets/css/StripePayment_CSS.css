@@ -1,0 +1,53 @@
+.finalGrid{
+ 	box-shadow: 0px 0px 25px #898989;
+    -webkit-box-shadow: 0px 0px 25px #898989;
+}    
+
+.error{
+    color: #e70000;
+}  
+
+.errorText{
+	font-weight: normal;
+	color: #e70000;
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+
+.corner4{
+  -webkit-border-radius: .3em;
+  border-radius: .3em; 
+}
+
+.gray-back{
+  background: #e8e8e8;  
+}
+
+input:focus::-webkit-input-placeholder 
+{
+    color: transparent;
+}
+
+.button-bottom{
+  background-image: 
+        linear-gradient( #7fa9fc, 
+        	  		     #41618e );
+  border: 1px solid #898989 ;
+}
+
+.button-bottom:active{
+  background: #395680;
+  border: 1px solid #898989 ;
+}
+
+.select-gray{
+  background-image: 
+        linear-gradient( #f4f4f4 /*{background-start}*/, 
+        	  		     #c1c1c1 /*{background-end}*/);
+  border: 1px solid #898989 /*{border}*/;  
+}
+    
+.stripe-header{
+  background: url("../image/header_bg.jpg") scroll 0 0 transparent;
+}

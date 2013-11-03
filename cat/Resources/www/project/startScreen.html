@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            startScreen
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent"
+        />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.3.0/jquery.mobile.structure-1.3.0.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/TW_Style.css"
+        />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/StripePayment_CSS.css"
+        />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.3.0/jquery.mobile-1.3.0.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/childbrowser.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/StripePayment_JS.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/StripePayment_Validation.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/StripePayment_Encoder.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        $(document).bind("mobileinit", function()
+        {
+            $.mobile.page.prototype.options.degradeInputs.date = true;
+        });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="startScreen" id="startScreen"
+        class="type-interior" data-theme="b" data-add-back-btn="false" data-back-btn-text="Back">
+            <!-- mobileheader1 -->
+            <div data-role="header" data-position="fixed" data-theme="a" name="mobileheader1"
+            id="startScreen_mobileheader1" class=' startScreen_mobileheader1 '>
+                <h1 dsid="mobileheader1">
+                    Kitty Rental
+                </h1>
+            </div>
+            <!-- mobilecontainer1 -->
+            <div data-role="content" id="startScreen_mobilecontainer1" name="mobilecontainer1"
+            class=" startScreen_mobilecontainer1" dsid="mobilecontainer1" data-theme="a">
+                <link href="startScreen.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="startScreen.js">
+                </script>
+                <!-- mobiledatepicker_2 -->
+                <div data-role="fieldcontain" id="startScreen_mobiledatepicker_2" dsid="mobiledatepicker_2"
+                name="mobiledatepicker_2" tiggzitype="object" apperytype="object" apperyclass="datepicker"
+                tiggziclass="datepicker" data-theme="a" class=' startScreen_mobiledatepicker_2 '>
+                    <div class="datePickerControls">
+                        <a title="Open Date Picker" class="datepickeropenbutton ui-input-clear ui-btn ui-body ui-body-a
+                        ui-btn-up-a ui-btn-icon-notext ui-btn-corner-all ui-shadow" href="#" data-theme="a" style="margin-top:3px; vertical-align: middle; display: inline-block;">
+                        <span class="ui-btn-inner ui-btn-corner-all">
+                        <span class="ui-btn-text">Open Date Picker</span>
+                        <span class="ui-icon ui-icon-grid ui-icon-shadow"></span>
+                        </span>
+                        </a>
+                        <div class="inputContainer">
+                            <input type="text" data-theme="a" value="" tabindex="1" />
+                        </div>
+                    </div>
+                </div>
+                <!-- mobileradiogroup_32 -->
+                <div data-role="fieldcontain" class=" startScreen_mobileradiogroup_32" id="startScreen_mobileradiogroup_32"
+                dsid="mobileradiogroup_32">
+                    <fieldset data-role="controlgroup">
+                        <!-- mobileradiobutton_33 -->
+                        <span dsid="mobileradiobutton_33" class="startScreen_mobileradiobutton_33" name="mobileradiobutton_33">
+                            <input type="radio" name="mobileradiogroup_32" id="startScreen_mobileradiobutton_33"
+                            tabindex="8" data-theme="a" value="Item 1" />
+                            <label id="startScreen_mobileradiobutton_33_label" for="startScreen_mobileradiobutton_33">
+                                15 mins
+                            </label>
+                        </span>
+                        <!-- mobileradiobutton_34 -->
+                        <span dsid="mobileradiobutton_34" class="startScreen_mobileradiobutton_34" name="mobileradiobutton_34">
+                            <input type="radio" name="mobileradiogroup_32" id="startScreen_mobileradiobutton_34"
+                            data-theme="a" value="Item 2" />
+                            <label id="startScreen_mobileradiobutton_34_label" for="startScreen_mobileradiobutton_34">
+                                1 hour
+                            </label>
+                        </span>
+                        <!-- mobileradiobutton_35 -->
+                        <span dsid="mobileradiobutton_35" class="startScreen_mobileradiobutton_35" name="mobileradiobutton_35">
+                            <input type="radio" name="mobileradiogroup_32" id="startScreen_mobileradiobutton_35"
+                            checked="checked" data-theme="a" value="Item 3" />
+                            <label id="startScreen_mobileradiobutton_35_label" for="startScreen_mobileradiobutton_35">
+                                Adopt a Cat
+                            </label>
+                        </span>
+                    </fieldset>
+                </div>
+                <!-- mobilebutton_10 -->
+                <a data-role="button" name="mobilebutton_10" dsid="mobilebutton_10" class='  startScreen_mobilebutton_10'
+                id="startScreen_mobilebutton_10" data-corners="true" x-apple-data-detectors="false"
+                data-mini="false" data-theme="e" tabindex="2">
+                Find available Cats
+                </a>
+                <!-- googlemap_36 -->
+                <div id="startScreen_googlemap_36" dsid="googlemap_36" name="googlemap_36" tiggzitype="object"
+                apperytype="object" class=' startScreen_googlemap_36' style='width:100%;'>
+                    <img class=' startScreen_googlemap_36' src="http://assets1.geocommons.com/d51ab1366bec6a2c4954db979e5921bd4cc140db/images/no_preview_map.png?1311276822"
+                    />
+                </div>
+                <ul data-role="listview" id="startScreen_googlemap_36_markers" name="googlemap_36_markers"
+                dsid="googlemap_36_markers" style="display:none">
+                    <!-- marker_37 -->
+                    <li id="startScreen_marker_37" name="marker_37" dsid="marker_37" tiggzitype="marker"
+                    apperytype="marker" rendered="true" latitude="47.604268" longitude="-122.334548"
+                    text="Seattle, WA" address="Seattle, WA" show_info="true" style="display:none">
+                        <div id="startScreen_marker_37_infoWindow" name="marker_37_infoWindowContent" class='startScreen_marker_37'>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- mobilefooter1 -->
+            <div data-role="footer" data-position="fixed" class=" startScreen_mobilefooter1"
+            name="mobilefooter1" dsid="mobilefooter1" id="startScreen_mobilefooter1" data-theme="a">
+            </div>
+        </div>
+    </body>
+
+</html>

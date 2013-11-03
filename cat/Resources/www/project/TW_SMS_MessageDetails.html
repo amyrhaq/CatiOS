@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            TW_SMS_MessageDetails
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent"
+        />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.3.0/jquery.mobile.structure-1.3.0.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/TW_Style.css"
+        />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/StripePayment_CSS.css"
+        />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.8.2.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.3.0/jquery.mobile-1.3.0.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-map/jquery.ui.map.full.min.js">
+        </script>
+        <link href="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/childbrowser.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/StripePayment_JS.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/StripePayment_Validation.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/StripePayment_Encoder.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                if (navigator.userAgent.match(/iP/i))
+        {
+            $(window).bind('orientationchange', function(event)
+            {
+                $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+            }).trigger('orientationchange');
+        }
+        $(document).bind("mobileinit", function()
+        {
+            $.mobile.page.prototype.options.degradeInputs.date = true;
+        });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="TW_SMS_MessageDetails" id="TW_SMS_MessageDetails"
+        class="type-interior" data-theme="c" data-add-back-btn="true" data-back-btn-text="Back">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-theme="c" name="mobileheader"
+            id="TW_SMS_MessageDetails_mobileheader" class=' TW_SMS_MessageDetails_mobileheader '>
+                <h1 dsid="mobileheader">
+                    Message Details
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="TW_SMS_MessageDetails_mobilecontainer" name="mobilecontainer"
+            class=" TW_SMS_MessageDetails_mobilecontainer" dsid="mobilecontainer" data-theme="">
+                <link href="TW_SMS_MessageDetails.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="TW_SMS_MessageDetails.js">
+                </script>
+                <!-- mobilegrid_12 -->
+                <div class="TW_SMS_MessageDetails_mobilegrid_12_wrapper">
+                    <table id="TW_SMS_MessageDetails_mobilegrid_12" class=" TW_SMS_MessageDetails_mobilegrid_12"
+                    dsid="mobilegrid_12" name="mobilegrid_12" cellpadding=0 cellspacing=0>
+                        <col style="width:70px;" />
+                        <col style="width:auto;" />
+                        <tr class="TW_SMS_MessageDetails_mobilegrid_12_row_0">
+                            <!-- mobilegridcell_13 -->
+                            <td id="TW_SMS_MessageDetails_mobilegridcell_13" name="mobilegridcell_13" class="TW_SMS_MessageDetails_mobilegridcell_13"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_23 -->
+                                    <div name="mobilelabel_23" id="TW_SMS_MessageDetails_mobilelabel_23" dsid="mobilelabel_23"
+                                    data-role="appery_label" class=' TW_SMS_MessageDetails_mobilelabel_23 '>
+                                        From
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_14 -->
+                            <td id="TW_SMS_MessageDetails_mobilegridcell_14" name="mobilegridcell_14" class="TW_SMS_MessageDetails_mobilegridcell_14"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- messageDetailsFrom -->
+                                    <div name="messageDetailsFrom" id="TW_SMS_MessageDetails_messageDetailsFrom" dsid="messageDetailsFrom"
+                                    data-role="appery_label" class=' TW_SMS_MessageDetails_messageDetailsFrom '>
+                                        From
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TW_SMS_MessageDetails_mobilegrid_12_row_1">
+                            <!-- mobilegridcell_15 -->
+                            <td id="TW_SMS_MessageDetails_mobilegridcell_15" name="mobilegridcell_15" class="TW_SMS_MessageDetails_mobilegridcell_15"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_24 -->
+                                    <div name="mobilelabel_24" id="TW_SMS_MessageDetails_mobilelabel_24" dsid="mobilelabel_24"
+                                    data-role="appery_label" class=' TW_SMS_MessageDetails_mobilelabel_24 '>
+                                        To
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_16 -->
+                            <td id="TW_SMS_MessageDetails_mobilegridcell_16" name="mobilegridcell_16" class="TW_SMS_MessageDetails_mobilegridcell_16"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- messageDetailsTo -->
+                                    <div name="messageDetailsTo" id="TW_SMS_MessageDetails_messageDetailsTo" dsid="messageDetailsTo"
+                                    data-role="appery_label" class=' TW_SMS_MessageDetails_messageDetailsTo '>
+                                        To
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TW_SMS_MessageDetails_mobilegrid_12_row_2">
+                            <!-- mobilegridcell_17 -->
+                            <td id="TW_SMS_MessageDetails_mobilegridcell_17" name="mobilegridcell_17" class="TW_SMS_MessageDetails_mobilegridcell_17"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_25 -->
+                                    <div name="mobilelabel_25" id="TW_SMS_MessageDetails_mobilelabel_25" dsid="mobilelabel_25"
+                                    data-role="appery_label" class=' TW_SMS_MessageDetails_mobilelabel_25 '>
+                                        Price
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_18 -->
+                            <td id="TW_SMS_MessageDetails_mobilegridcell_18" name="mobilegridcell_18" class="TW_SMS_MessageDetails_mobilegridcell_18"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- messageDetailsPrice -->
+                                    <div name="messageDetailsPrice" id="TW_SMS_MessageDetails_messageDetailsPrice" dsid="messageDetailsPrice"
+                                    data-role="appery_label" class=' TW_SMS_MessageDetails_messageDetailsPrice '>
+                                        Price
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TW_SMS_MessageDetails_mobilegrid_12_row_3">
+                            <!-- mobilegridcell_19 -->
+                            <td id="TW_SMS_MessageDetails_mobilegridcell_19" name="mobilegridcell_19" class="TW_SMS_MessageDetails_mobilegridcell_19"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_27 -->
+                                    <div name="mobilelabel_27" id="TW_SMS_MessageDetails_mobilelabel_27" dsid="mobilelabel_27"
+                                    data-role="appery_label" class=' TW_SMS_MessageDetails_mobilelabel_27 '>
+                                        Content
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_20 -->
+                            <td id="TW_SMS_MessageDetails_mobilegridcell_20" name="mobilegridcell_20" class="TW_SMS_MessageDetails_mobilegridcell_20"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- messageDetailsContent -->
+                                    <div name="messageDetailsContent" id="TW_SMS_MessageDetails_messageDetailsContent"
+                                    dsid="messageDetailsContent" data-role="appery_label" class=' TW_SMS_MessageDetails_messageDetailsContent '>
+                                        Content
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="TW_SMS_MessageDetails_mobilegrid_12_row_4">
+                            <!-- mobilegridcell_21 -->
+                            <td id="TW_SMS_MessageDetails_mobilegridcell_21" name="mobilegridcell_21" class="TW_SMS_MessageDetails_mobilegridcell_21"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_28 -->
+                                    <div name="mobilelabel_28" id="TW_SMS_MessageDetails_mobilelabel_28" dsid="mobilelabel_28"
+                                    data-role="appery_label" class=' TW_SMS_MessageDetails_mobilelabel_28 '>
+                                        Sent
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_22 -->
+                            <td id="TW_SMS_MessageDetails_mobilegridcell_22" name="mobilegridcell_22" class="TW_SMS_MessageDetails_mobilegridcell_22"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- messageDetailsDateSent -->
+                                    <div name="messageDetailsDateSent" id="TW_SMS_MessageDetails_messageDetailsDateSent"
+                                    dsid="messageDetailsDateSent" data-role="appery_label" class=' TW_SMS_MessageDetails_messageDetailsDateSent '>
+                                        DateSent
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter1 -->
+            <div data-role="footer" data-position="fixed" class=" TW_SMS_MessageDetails_mobilefooter1"
+            name="mobilefooter1" dsid="mobilefooter1" id="TW_SMS_MessageDetails_mobilefooter1"
+            data-theme="c">
+            </div>
+        </div>
+    </body>
+
+</html>

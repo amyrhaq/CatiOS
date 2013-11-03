@@ -1,0 +1,200 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.3.0/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.TW_SMS_MessageDetails_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+	height: 100%;
+}
+/* mobilegrid_12 */
+.TW_SMS_MessageDetails_mobilegrid_12 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.TW_SMS_MessageDetails_mobilegrid_12 > tr > td {
+	vertical-align: top;
+}
+.TW_SMS_MessageDetails_mobilegrid_12_row_0, .TW_SMS_MessageDetails_mobilegrid_12_row_0 > td {
+	height: 30px
+}
+.TW_SMS_MessageDetails_mobilegrid_12_row_1, .TW_SMS_MessageDetails_mobilegrid_12_row_1 > td {
+	height: 30px
+}
+.TW_SMS_MessageDetails_mobilegrid_12_row_2, .TW_SMS_MessageDetails_mobilegrid_12_row_2 > td {
+	height: 30px
+}
+.TW_SMS_MessageDetails_mobilegrid_12_row_3, .TW_SMS_MessageDetails_mobilegrid_12_row_3 > td {
+	height: 30px
+}
+.TW_SMS_MessageDetails_mobilegrid_12_row_4, .TW_SMS_MessageDetails_mobilegrid_12_row_4 > td {
+	height: 30px
+}
+/* mobilegridcell_13 */
+.TW_SMS_MessageDetails_mobilegridcell_13 {
+	height:30px !important;
+	width:66px;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_MessageDetails_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_23 */
+.TW_SMS_MessageDetails_mobilelabel_23 {
+	font-weight: bold; font-style: italic; color: #000000; text-align: left;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_14 */
+.TW_SMS_MessageDetails_mobilegridcell_14 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_MessageDetails_mobilegridcell_14 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* messageDetailsFrom */
+.TW_SMS_MessageDetails_messageDetailsFrom {
+	font-weight: normal; color: #000000; text-align: right;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_15 */
+.TW_SMS_MessageDetails_mobilegridcell_15 {
+	height:30px !important;
+	width:66px;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_MessageDetails_mobilegridcell_15 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_24 */
+.TW_SMS_MessageDetails_mobilelabel_24 {
+	font-weight: bold; font-style: italic; color: #000000; text-align: left;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_16 */
+.TW_SMS_MessageDetails_mobilegridcell_16 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_MessageDetails_mobilegridcell_16 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* messageDetailsTo */
+.TW_SMS_MessageDetails_messageDetailsTo {
+	font-weight: normal; color: #000000; text-align: right;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_17 */
+.TW_SMS_MessageDetails_mobilegridcell_17 {
+	height:30px !important;
+	width:66px;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_MessageDetails_mobilegridcell_17 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_25 */
+.TW_SMS_MessageDetails_mobilelabel_25 {
+	font-weight: bold; font-style: italic; color: #000000; text-align: left;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_18 */
+.TW_SMS_MessageDetails_mobilegridcell_18 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_MessageDetails_mobilegridcell_18 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* messageDetailsPrice */
+.TW_SMS_MessageDetails_messageDetailsPrice {
+	font-weight: normal; color: #000000; text-align: right;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_19 */
+.TW_SMS_MessageDetails_mobilegridcell_19 {
+	height:30px !important;
+	width:66px;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_MessageDetails_mobilegridcell_19 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_27 */
+.TW_SMS_MessageDetails_mobilelabel_27 {
+	font-weight: bold; font-style: italic; color: #000000; text-align: left;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_20 */
+.TW_SMS_MessageDetails_mobilegridcell_20 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_MessageDetails_mobilegridcell_20 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* messageDetailsContent */
+.TW_SMS_MessageDetails_messageDetailsContent {
+	font-weight: normal; color: #000000; text-align: right;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_21 */
+.TW_SMS_MessageDetails_mobilegridcell_21 {
+	height:30px !important;
+	width:66px;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_MessageDetails_mobilegridcell_21 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_28 */
+.TW_SMS_MessageDetails_mobilelabel_28 {
+	font-weight: bold; font-style: italic; color: #000000; text-align: left;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilegridcell_22 */
+.TW_SMS_MessageDetails_mobilegridcell_22 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.TW_SMS_MessageDetails_mobilegridcell_22 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* messageDetailsDateSent */
+.TW_SMS_MessageDetails_messageDetailsDateSent {
+	font-weight: normal; color: #000000; text-align: right;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+}
+/* mobilefooter1 */
+.TW_SMS_MessageDetails_mobilefooter1 {
+	min-height:38px;
+}
